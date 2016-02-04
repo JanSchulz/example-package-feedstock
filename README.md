@@ -14,10 +14,10 @@ Summary: An example package which does not contain anything
 Installing example-package
 ==========================
 
-Installing example-package from the owner, e.g. "conda-forge" channel can be achieved by adding owner, e.g. "conda-forge" to your channels with:
+Installing example-package from the janschulz channel can be achieved by adding janschulz to your channels with:
 
 ```
-conda config --add channels owner, e.g. "conda-forge"
+conda config --add channels janschulz
 ```
 
 Once the conda-forge channel has been enabled, example-package can be installed with:
@@ -29,7 +29,7 @@ conda install example-package
 It is possible to list all of the versions of example-package available on your platform with:
 
 ```
-conda search example-package --channel owner, e.g. "conda-forge"
+conda search example-package --channel janschulz
 ```
 
 

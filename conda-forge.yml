@@ -1,10 +1,10 @@
 appveyor:
-  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
+  secure: {BINSTAR_TOKEN: pQrnOvQFfuz1l38ZtSzpX9LHQU4y7cmbZo4kTgTnO3aFE5wwixmdmBjMKdqRx9uA}
 channels:
-  sources: ['owner, e.g. "conda-forge"']
+  sources: [janschulz]
   targets:
-  - ['<owner, e.g. "conda-forge">', '<channel, e.g. "main">']
+  - [janschulz, dev]
 is_multi: false
 recipe_dir: recipe
 travis:
-  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
+  secure: {BINSTAR_TOKEN: LoZLKSXQXBE9yB/GLHSbVdLLcwLoik6fbObu8ScnCvALF0KM8so/7GstJ+hIpn97LovRDVyjgdqQhBnLqLbp5q/yva8wgd0qfiwa7dKluoG8B/vzIVGahmI9/mTPHTSMjndeUzcKtn2ig6yTtVAsrexiMg/iWr2ciI5YwihgDtVd2z8T1kglPrHB/FlIe1waGEruHxBYrOSC12rSP9ZQ2xYFqK4iokFhiKTeSNZpGFVEwYZEfVETXDKztg6fiEKhO2oq7dZuySKED8faRcKRfnJylWvKjojISBxr4I8WOC05AQtMcA/ckf0VVRJMOE8c9MVJRgCNadAk3Tac4PrDQQ7pgRKfUBqpwygyX18sXEzrxbNGVeRCknoW4EwrQIreG5lJq6yroRTpGgagwm1OVNqpsgW5Z/7rhM+l0CJHaBiarJqzYEWONXvyFmzJsqp4R5FcSl3ZQ44hh9VxuDKOSgMgPLx1TJJijvVB8xB6r8yOOIWtkCFODrsuwoRMZwYUTz8PJtEFDmzF/YtRAT6bWOduypQeH4BX2R+9ujFNzdGvYxlOUdVvdsscXiDuGqqAkRUZBy/n5LjBMK2ScguWVr2CLxLSmKr1XYtyEaS2VJqdEzAkJdhaSqbheTVUTvyDUTdSOvmq5TgrJe0vxJpeuALjgK6cdR5C19a6RoBZ+zk=}
