@@ -1,0 +1,10 @@
+appveyor:
+  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
+channels:
+  sources: ['owner, e.g. "conda-forge"']
+  targets:
+  - ['<owner, e.g. "conda-forge">', '<channel, e.g. "main">']
+is_multi: false
+recipe_dir: recipe
+travis:
+  secure: {BINSTAR_TOKEN: <will be updated by "conda-smithy register-feedstock-ci">}
