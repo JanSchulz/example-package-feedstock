@@ -1,14 +1,10 @@
 About example-package
 =====================
 
-Home: http://example.com
-
-Package license: BSD-3
-
-Feedstock license: BSD
-
-Summary: An example package which does not contain anything
-
+* Home: http://example.com
+* Package license: BSD-3
+* Feedstock license: BSD
+* Summary: An example package which does not contain anything
 
 
 Installing example-package
@@ -50,8 +46,7 @@ Terminology
 
 Current build status
 ====================
-Linux: [![Circle CI](https://circleci.com/gh/JanSchulz/example-package-feedstock
-.svg?style=svg)](https://circleci.com/gh/JanSchulz/example-package-feedstock)
+Linux: [![Circle CI](https://circleci.com/gh/JanSchulz/example-package-feedstock.svg?style=svg)](https://circleci.com/gh/JanSchulz/example-package-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/JanSchulz/example-package-feedstock.svg?branch=master)](https://travis-ci.org/JanSchulz/example-package-feedstock)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/JanSchulz/example-package-feedstock?svg=True)](https://ci.appveyor.com/project/JanSchulz/example-package-feedstock/branch/master)
 
