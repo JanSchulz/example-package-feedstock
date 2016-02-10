@@ -18,7 +18,9 @@ install:
       export PATH=/Users/travis/miniconda3/bin:$PATH
 
       conda install -n root --quiet -c conda-forge --yes conda-build-all conda-build jinja2 anaconda-client setuptools
-
+      
+      # debug
+      conda create --dry-run -n py26 python=2.6 
       
       conda config --add channels janschulz
       

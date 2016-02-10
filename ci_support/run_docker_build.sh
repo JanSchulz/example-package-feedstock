@@ -40,7 +40,6 @@ conda clean --lock
 
 conda info
 
-
 conda install -n root --quiet -c conda-forge --yes conda-build-all conda-build anaconda-client jinja2 setuptools
 
 conda buildall /recipe_root --no-inspect-conda-bld-directory \
