@@ -1,4 +1,3 @@
-
 About example-package
 =====================
 
@@ -30,10 +29,12 @@ It is possible to list all of the versions of example-package available on your 
 conda search example-package --channel janschulz
 ```
 
+
+
 Terminology
 ===========
 
-**feedstock** - a repository with a conda recipe (raw material), supporting scripts and
+**feedstock** - a repository with one or more conda recipes (raw material), supporting scripts and
                 CI configuration
 
 **conda-smithy** - the tool which helps orchestrate the feedstock.
@@ -49,6 +50,7 @@ Linux: [![Circle CI](https://circleci.com/gh/JanSchulz/example-package-feedstock
 OSX: [![TravisCI](https://travis-ci.org/JanSchulz/example-package-feedstock.svg?branch=master)](https://travis-ci.org/JanSchulz/example-package-feedstock)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/JanSchulz/example-package-feedstock?svg=True)](https://ci.appveyor.com/project/JanSchulz/example-package-feedstock/branch/master)
 
+
 Updating example-package-feedstock
 ==================================
 
@@ -58,6 +60,8 @@ be run on the appropriate platforms to give the reviewer an opportunity to confi
 changes result in a successful build. Once merged, the recipe will be re-built and uploaded
 automatically to the "janschulz" channel, whereupon they will be available for everybody to
 install and use.
+
+
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
